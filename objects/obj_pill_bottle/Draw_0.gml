@@ -1,0 +1,1 @@
+draw_sprite(spr_pill_bottle, uses, x, y);

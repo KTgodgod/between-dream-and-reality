@@ -1,0 +1,1 @@
+target_by_player = false;
