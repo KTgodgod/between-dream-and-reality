@@ -12,8 +12,8 @@
   "duration":4.015612,
   "name":"white_noise_fadein_low_shorter",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"sfx",
+    "path":"folders/Sounds/sfx.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

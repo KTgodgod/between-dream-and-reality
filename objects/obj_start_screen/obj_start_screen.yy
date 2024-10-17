@@ -9,8 +9,8 @@
   "name":"obj_start_screen",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"controller",
+    "path":"folders/Objects/controller.yy",
   },
   "parentObjectId":null,
   "persistent":false,

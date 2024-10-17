@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"room_d",
-    "path":"folders/Sprites/room_d.yy",
+    "path":"folders/Sprites/world object/room_d.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
