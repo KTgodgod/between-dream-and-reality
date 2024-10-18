@@ -16,8 +16,8 @@ options[0] = {
 		obj_player.state = player_state.laying;
 		obj_player.x = 2210;
 		obj_player.y = 568;
-		camera.x = 2176;
-		camera.y = 352;
+		obj_camera.x = 2176;
+		obj_camera.y = 352;
 		obj_player.third_dream_cycle1_choices = true;
 		instance_deactivate_object(obj_shadow_2);
 		obj_ending_choices2.x = other.x;

@@ -18,7 +18,7 @@ enum player_state {
 	laying,
 	headache
 }
-TransitionPlaceSequence(camera.x, camera.y, seq_fadein);
+TransitionPlaceSequence(obj_camera.x, obj_camera.y, seq_fadein);
 
 //progress record
 first_awake = false;

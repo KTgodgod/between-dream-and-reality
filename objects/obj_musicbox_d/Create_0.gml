@@ -38,8 +38,8 @@ options_set_b[0] = {
 			obj_player.state = player_state.laying;
 			obj_player.x = other.target_x;
 			obj_player.y = other.target_y;
-			camera.x = _cam_x;
-			camera.y = _cam_y;
+			obj_camera.x = _cam_x;
+			obj_camera.y = _cam_y;
 		}
 	}
 }
@@ -59,8 +59,8 @@ options_set_b[1] = {
 			obj_player.state = player_state.laying;
 			obj_player.x = other.target_x;
 			obj_player.y = other.target_y;
-			camera.x = _cam_x;
-			camera.y = _cam_y;
+			obj_camera.x = _cam_x;
+			obj_camera.y = _cam_y;
 		}
 	}
 }

@@ -18,8 +18,8 @@ options_set_a[0] = {
 		obj_player.state = player_state.laying;
 		obj_player.x = 2210;
 		obj_player.y = 568;
-		camera.x = 2176;
-		camera.y = 352;
+		obj_camera.x = 2176;
+		obj_camera.y = 352;
 		obj_player.third_dream_cycle3_choices = true;
 		y += 300;
 		instance_deactivate_object(obj_shadow_4);
@@ -47,8 +47,8 @@ options_set_b[0] = {
 		obj_player.state = player_state.laying;
 		obj_player.x = 2210;
 		obj_player.y = 568;
-		camera.x = 2176;
-		camera.y = 352;
+		obj_camera.x = 2176;
+		obj_camera.y = 352;
 		obj_player.third_dream_cycle3_choices = true;
 
 		instance_deactivate_object(obj_shadow_3);
@@ -67,8 +67,8 @@ options_set_b[1] = {
 		obj_player.state = player_state.laying;
 		obj_player.x = 556;
 		obj_player.y = 568;
-		camera.x = 740;
-		camera.y = 452;
+		obj_camera.x = 740;
+		obj_camera.y = 452;
 		obj_player.third_dream_cycle3_choices = true;
 		instance_deactivate_object(obj_shadow_4);
 	}

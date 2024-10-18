@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_start_screen",
+  "%Name":"obj_button",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_start_screen",
+  "name":"obj_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"menu controller",
-    "path":"folders/Objects/controller/menu controller.yy",
+    "name":"ui",
+    "path":"folders/Objects/ui.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_box_basic",
+    "path":"sprites/spr_box_basic/spr_box_basic.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

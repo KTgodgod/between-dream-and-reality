@@ -8,8 +8,8 @@ if (timer_run == true) {
 	if (++timer > 5) {
 		obj_player.x = target_x;
 		obj_player.y = target_y;
-		camera.x = camera_to_x;
-		camera.y = camera_to_y;
+		obj_camera.x = camera_to_x;
+		obj_camera.y = camera_to_y;
 		timer = 0;
 		timer_run = false;
 	}

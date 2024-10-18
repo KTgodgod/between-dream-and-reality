@@ -9,8 +9,8 @@ if (timer_run == true && obj_player.first_dream_door == true) {
 	if (++timer > 5) {
 		obj_player.x = target_x;
 		obj_player.y = target_y;
-		camera.x = camera_to_x;
-		camera.y = camera_to_y;
+		obj_camera.x = camera_to_x;
+		obj_camera.y = camera_to_y;
 		timer = 0;
 		timer_run = false;
 	}
@@ -21,8 +21,8 @@ if (++timer >=303 && wake_up == true) {
 		obj_player.state = player_state.laying;
 		obj_player.x = 938;
 		obj_player.y = 568;
-		camera.x = 640;
-		camera.y = 352;
+		obj_camera.x = 640;
+		obj_camera.y = 352;
 		timer = 0;
 		timer_run = false;
 		wake_up = false;

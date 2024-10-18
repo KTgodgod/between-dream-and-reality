@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"camera",
+  "%Name":"obj_camera",
   "eventList":[],
   "managed":true,
-  "name":"camera",
+  "name":"obj_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"controller",
-    "path":"folders/Objects/controller.yy",
+    "name":"scene controller",
+    "path":"folders/Objects/controller/scene controller.yy",
   },
   "parentObjectId":null,
   "persistent":false,
