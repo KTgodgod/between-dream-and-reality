@@ -8,8 +8,8 @@
   "name":"obj_check_icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"ui",
-    "path":"folders/Objects/ui.yy",
+    "name":"game room",
+    "path":"folders/Objects/ui and controller/game room.yy",
   },
   "parentObjectId":null,
   "persistent":false,

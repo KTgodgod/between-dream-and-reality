@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_btn_main_menu_start",
+  "%Name":"obj_btn_setting_menu_open",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_btn_main_menu_start",
+  "name":"obj_btn_setting_menu_open",
   "overriddenProperties":[],
   "parent":{
-    "name":"main menu button",
-    "path":"folders/Objects/ui/button/main menu button.yy",
+    "name":"setting menu",
+    "path":"folders/Objects/ui and controller/main menu/setting menu.yy",
   },
   "parentObjectId":{
     "name":"obj_button",

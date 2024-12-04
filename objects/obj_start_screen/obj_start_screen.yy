@@ -9,8 +9,8 @@
   "name":"obj_start_screen",
   "overriddenProperties":[],
   "parent":{
-    "name":"menu controller",
-    "path":"folders/Objects/controller/menu controller.yy",
+    "name":"start screen",
+    "path":"folders/Objects/ui and controller/start screen.yy",
   },
   "parentObjectId":null,
   "persistent":false,

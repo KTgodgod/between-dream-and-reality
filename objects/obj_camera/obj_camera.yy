@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"scene controller",
-    "path":"folders/Objects/controller/scene controller.yy",
+    "path":"folders/Objects/ui and controller/scene controller.yy",
   },
   "parentObjectId":null,
   "persistent":false,

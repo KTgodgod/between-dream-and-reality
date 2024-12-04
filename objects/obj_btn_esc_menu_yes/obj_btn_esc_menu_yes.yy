@@ -8,8 +8,8 @@
   "name":"obj_btn_esc_menu_yes",
   "overriddenProperties":[],
   "parent":{
-    "name":"esc menu button",
-    "path":"folders/Objects/ui/button/esc menu button.yy",
+    "name":"esc menu",
+    "path":"folders/Objects/ui and controller/game room/esc menu.yy",
   },
   "parentObjectId":{
     "name":"obj_button",
