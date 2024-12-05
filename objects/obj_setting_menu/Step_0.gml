@@ -8,6 +8,9 @@ if menu_previous != menu_open {
 	    if menu_open 
 		{
 			instance_activate_object(setting_menu_obj_list[i]);
+			with setting_menu_obj_list[i] {
+				event_perform(ev_create, 0);
+			}
 			instance_deactivate_layer("menu_button");
 		}
 		else {

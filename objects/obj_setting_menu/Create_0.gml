@@ -21,9 +21,9 @@ var _seq = layer_sequence_create("UI_and_Controller", _x, _y, seq_gui_setting_me
 var _menu = layer_sequence_get_sequence(_seq);
 setting_menu_obj_list = sequence_get_objects(_menu);
 
-
 menu_open = false;
 menu_previous = !menu_open;
+
 
 if !variable_global_exists("volume") {
 	global.volume = 1;

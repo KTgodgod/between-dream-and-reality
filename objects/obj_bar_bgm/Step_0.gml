@@ -8,14 +8,17 @@ else {
 	_wm_y = window_views_mouse_get_y();
 }
 
-var _check_click_press = mouse_check_button_pressed(mb_left) || input_check_pressed("accept");
-var _check_click_released = mouse_check_button_released(mb_left);
-
-if in_sequence
+if input_source_using(INPUT_MOUSE) 
 {
-	min_cord = x;
-	max_cord = x + sprite_width;
+	var _check_click_press = mouse_check_button_pressed(mb_left)
+	var _check_click_released = mouse_check_button_released(mb_left);
 }
+else if input_source_using(INPUT_GAMEPAD)
+{
+	var _check_click_press =  input_check_pressed("accept");
+	var _check_click_released = input_check_released("accept");
+}
+
 
 if _check_click_press && (position_meeting(_wm_x, _wm_y, self))
 {
@@ -29,4 +32,5 @@ if _check_click_released {
 if hold
 {
 	global.volume = clamp(map_value(_wm_x, min_cord, max_cord, 0, 1), 0, 1);
+	
 }

@@ -9,3 +9,5 @@ min_cord = x;
 max_cord = x + sprite_width;
 
 hold = false;
+
+text = "BGM";

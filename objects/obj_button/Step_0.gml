@@ -11,20 +11,20 @@ else {
 }
 
 
-if (input_check_pressed("accept") || mouse_check_button_pressed(mb_left)) && position_meeting(_wm_x, _wm_y, self)
+if (mouse_check_button_pressed(mb_left) && position_meeting(_wm_x, _wm_y, self))
 {
-	selected = true;
+	hold = true;
 }
 
-if selected 
+if hold 
 {
-	if input_check_released("accept") || mouse_check_button_released(mb_left)
+	if mouse_check_button_released(mb_left)
 	{
-		selected = false;
+		hold = false;
 		action_when_click();
 	}
 	else if !position_meeting(_wm_x, _wm_y, self)
 	{
-		selected = false;
+		hold = false;
 	}
 }

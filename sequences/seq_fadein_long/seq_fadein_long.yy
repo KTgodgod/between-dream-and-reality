@@ -26,8 +26,8 @@
   },
   "name":"seq_fadein_long",
   "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "name":"scene & ani",
+    "path":"folders/Sequences/scene & ani.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,

@@ -7,6 +7,7 @@ if !variable_instance_exists(id, "text") {
 	text = "default";
 }
 selected = false;
+hold = false;
 
 //if the viewport and window has a different ratio
 if view_visible[0] {

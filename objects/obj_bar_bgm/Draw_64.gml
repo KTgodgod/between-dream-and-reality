@@ -8,5 +8,5 @@ var _icon_x = map_value(global.volume, 0, 1, min_cord, max_cord);
 
 draw_arrow(_icon_x, y + 20,_icon_x, y + 5, 15);
 //text title
-var _text = $"BGM\n{global.volume}";
+var _text = $"{text}\n{global.volume}";
 draw_text(x - (string_width(_text) / 2), y - 50, _text);

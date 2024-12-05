@@ -1,5 +1,5 @@
 
-if selected 
+if hold
 {
 	image_index = 1;
 }
@@ -24,7 +24,7 @@ var _alpha = map_value(sin(selected * 0.05), -1, 1, 0.2, 0.3);
 }
 
 //draw hitbox outline
-draw_rectangle(bbox_left * view_scale, bbox_top * view_scale, bbox_right * view_scale, bbox_bottom * view_scale, true);
+//draw_rectangle(bbox_left * view_scale, bbox_top * view_scale, bbox_right * view_scale, bbox_bottom * view_scale, true);
 	
 //draw sprite
 var _u = view_scale;
