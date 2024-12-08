@@ -3,8 +3,6 @@
   "%Name":"obj_bar_sfx",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_bar_sfx",
@@ -13,7 +11,10 @@
     "name":"setting menu",
     "path":"folders/Objects/ui and controller/main menu/setting menu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_bar",
+    "path":"objects/obj_bar/obj_bar.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

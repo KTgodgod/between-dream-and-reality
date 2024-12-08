@@ -30,6 +30,6 @@ if _check_click_released {
 
 if hold
 {
-	global.sfx_vol = clamp(map_value(_wm_x, min_cord, max_cord, 0, 1), 0, 1);
+	con_var = clamp(map_value(_wm_x, min_cord, max_cord, 0, 1), 0, 1);
 	
 }

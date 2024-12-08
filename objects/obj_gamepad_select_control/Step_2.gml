@@ -10,14 +10,16 @@ for (var j = 0; j < array_length(sel_obj); ++j)
 	}
 }
 
-if sel_obj_list_previous != sel_obj_list[0] 
+
+if array_length(sel_obj_list) == 0 {
+	selected = noone;
+}
+else if sel_obj_list_previous != sel_obj_list[0] 
 {
 	selected = noone;
 	sel_obj_list_previous = sel_obj_list[0];
-	
 	sel_obj_list_sort_y = sel_obj_list;
 	array_sort(sel_obj_list_sort_y, sort_y);
-
 }
 else if input_check_pressed("up") || input_check_pressed("down")
 {
@@ -32,5 +34,37 @@ else if input_check_pressed("up") || input_check_pressed("down")
 		if input_check_pressed("down") && ++selected >= array_length(sel_obj_list) {
 			selected -= array_length(sel_obj_list);
 		}
+	}
+}
+
+
+
+
+if selected != noone {
+	var _obj = sel_obj_list_sort_y[selected];
+	var _obj_parent = object_get_parent(_obj.object_index);
+	switch (_obj_parent) {
+		case obj_button:
+			if input_check_pressed("accept") {
+				_obj.action_when_click();
+			}
+			break;
+		case obj_bar:
+			if input_check_pressed("left") {
+				_obj.con_var -= 0.01;
+			}
+			if input_check_long("left") {
+				_obj.con_var -= 0.01;
+			}
+			if input_check_pressed("right") {
+				_obj.con_var += 0.01;
+			}
+			if input_check_long("right") {
+				_obj.con_var += 0.01;
+			}
+			_obj.con_var = clamp(_obj.con_var, 0, 1)
+			break;
+		default:
+			break;
 	}
 }

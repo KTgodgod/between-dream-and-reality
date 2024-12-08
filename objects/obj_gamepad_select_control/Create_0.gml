@@ -1,6 +1,6 @@
 selected = noone;
 
-sel_obj = [obj_button, obj_bar_bgm, obj_bar_sfx];
+sel_obj = [obj_button, obj_bar];
 
 
 sel_obj_list = [];
