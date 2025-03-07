@@ -10,12 +10,12 @@
   "name":"obj_door1",
   "overriddenProperties":[],
   "parent":{
-    "name":"interact_item",
-    "path":"folders/Objects/interact_item.yy",
+    "name":"old",
+    "path":"folders/Objects/obj_interact/old.yy",
   },
   "parentObjectId":{
-    "name":"obj_interact",
-    "path":"objects/obj_interact/obj_interact.yy",
+    "name":"obj_interact_o",
+    "path":"objects/obj_interact_o/obj_interact_o.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

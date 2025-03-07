@@ -1,6 +1,6 @@
 /// @description draw pick option
 if (ready_to_interact == true && start_dialog != true
-&& obj_player.input_interact && point_distance(x,y, mouse_x, mouse_y) < 30) {
+&& obj_player_o.input_interact && point_distance(x,y, mouse_x, mouse_y) < 30) {
 	start_dialog = true;
 	timer = 0;
 }
@@ -13,7 +13,7 @@ if (start_dialog == true) {
 	draw_set_color(c_white);
 	draw_text(x, y, text_des);
 	//choices
-	choice += obj_player.input_up_down;
+	choice += obj_player_o.input_up_down;
 	if (choice > options_length) choice = 0;
 	if (choice < 0) choice = options_length;
 	
@@ -42,7 +42,7 @@ if (start_dialog == true) {
 			draw_text(x, _text_y, _text);
 		}
 		
-		if (timer++ > 10 && obj_player.input_interact && choice >= 0) {
+		if (timer++ > 10 && obj_player_o.input_interact && choice >= 0) {
 			start_dialog = false;
 			timer = 0; //timer to stop same frame action
 			options[choice].action();

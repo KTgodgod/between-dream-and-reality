@@ -9,8 +9,8 @@ text_des = "unlock the door";
 options[0] = {
 	text : "unlock",
 	action : function() {
-		obj_player.state = player_state.headache;
-		obj_player.first_dream_door = true;
+		obj_player_o.state = player_state.headache;
+		obj_player_o.first_dream_door = true;
 		other.wake_up = true;
 	}
 }

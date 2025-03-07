@@ -9,7 +9,7 @@ text_des = "a golden key";
 options[0] = {
 	text : "take the key",
 	action : function() {
-		obj_player.first_dream_key = true;
+		obj_player_o.first_dream_key = true;
 		instance_create_layer(4100, 568, "player", obj_shadow_1);
 		obj_door1d.interactable = true;
 		obj_door1d_lock.interactable = false;

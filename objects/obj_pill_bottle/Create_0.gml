@@ -10,7 +10,7 @@ options[0] = {
 	text : "take the pills",
 	action : function() {
 		other.uses -= 1;
-		obj_player.state = player_state.headache;
+		obj_player_o.state = player_state.headache;
 		other.entering_dream = true;
 	}
 }

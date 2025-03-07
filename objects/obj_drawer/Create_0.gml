@@ -8,7 +8,7 @@ text_des = "an empty pistol";
 options[0] = {
 	text : "take the empty pistol",
 	action : function() {
-		obj_player.pistol_real = true;
+		obj_player_o.pistol_real = true;
 		other.interactable = false;
 	}
 }

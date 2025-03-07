@@ -1,0 +1,1 @@
+global.sfx_vol = con_var;

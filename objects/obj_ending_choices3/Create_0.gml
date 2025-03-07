@@ -15,12 +15,12 @@ options_set_a[0] = {
 		audio_stop_sound(Scary_Box);
 		musicbox_playing = false;
 		audio_play_sound(gunshot,1,false);
-		obj_player.state = player_state.laying;
-		obj_player.x = 2210;
-		obj_player.y = 568;
+		obj_player_o.state = player_state.laying;
+		obj_player_o.x = 2210;
+		obj_player_o.y = 568;
 		obj_camera.x = 2176;
 		obj_camera.y = 352;
-		obj_player.third_dream_cycle3_choices = true;
+		obj_player_o.third_dream_cycle3_choices = true;
 		y += 300;
 		instance_deactivate_object(obj_shadow_4);
 	}
@@ -44,12 +44,12 @@ options_set_b[0] = {
 		audio_stop_sound(Scary_Box);
 		musicbox_playing = false;
 		audio_play_sound(gunshot, 1, false);
-		obj_player.state = player_state.laying;
-		obj_player.x = 2210;
-		obj_player.y = 568;
+		obj_player_o.state = player_state.laying;
+		obj_player_o.x = 2210;
+		obj_player_o.y = 568;
 		obj_camera.x = 2176;
 		obj_camera.y = 352;
-		obj_player.third_dream_cycle3_choices = true;
+		obj_player_o.third_dream_cycle3_choices = true;
 
 		instance_deactivate_object(obj_shadow_3);
 	}
@@ -64,12 +64,12 @@ options_set_b[1] = {
 		other.interactable = false;
 		audio_stop_sound(Scary_Box);
 		musicbox_playing = false;
-		obj_player.state = player_state.laying;
-		obj_player.x = 556;
-		obj_player.y = 568;
+		obj_player_o.state = player_state.laying;
+		obj_player_o.x = 556;
+		obj_player_o.y = 568;
 		obj_camera.x = 740;
 		obj_camera.y = 452;
-		obj_player.third_dream_cycle3_choices = true;
+		obj_player_o.third_dream_cycle3_choices = true;
 		instance_deactivate_object(obj_shadow_4);
 	}
 }

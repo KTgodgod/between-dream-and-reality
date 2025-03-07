@@ -13,12 +13,12 @@ options[0] = {
 		audio_stop_sound(Scary_Box);
 		musicbox_playing = false;
 		audio_play_sound(gunshot,1,false);
-		obj_player.state = player_state.laying;
-		obj_player.x = 2210;
-		obj_player.y = 568;
+		obj_player_o.state = player_state.laying;
+		obj_player_o.x = 2210;
+		obj_player_o.y = 568;
 		obj_camera.x = 2176;
 		obj_camera.y = 352;
-		obj_player.third_dream_cycle1_choices = true;
+		obj_player_o.third_dream_cycle1_choices = true;
 		instance_deactivate_object(obj_shadow_2);
 		obj_ending_choices2.x = other.x;
 		obj_ending_choices2.y = other.y;

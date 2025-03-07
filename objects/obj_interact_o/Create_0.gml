@@ -1,4 +1,4 @@
-radius = obj_player.target_item_radius;
+radius = obj_player_o.target_item_radius;
 interactable = false;
 ready_to_interact = false;
 check_icon = instance_create_layer(x, y, "text", obj_check_icon);

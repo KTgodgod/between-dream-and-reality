@@ -9,8 +9,8 @@
   "name":"obj_text_begin",
   "overriddenProperties":[],
   "parent":{
-    "name":"interact_item",
-    "path":"folders/Objects/interact_item.yy",
+    "name":"old",
+    "path":"folders/Objects/obj_interact/old.yy",
   },
   "parentObjectId":null,
   "persistent":false,

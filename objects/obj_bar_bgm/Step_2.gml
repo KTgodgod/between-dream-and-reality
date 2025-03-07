@@ -1,0 +1,1 @@
+global.volume = con_var;

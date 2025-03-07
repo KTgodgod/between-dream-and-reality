@@ -34,10 +34,10 @@ options_set_b[0] = {
 			var _cam_x =  other.camera_to_x, _cam_y =  other.camera_to_y;
 			TransitionPlaceSequence(_cam_x, _cam_y, seq_fadein);
 			other.first_interact = false;
-			obj_player.second_dream_music_box = true;
-			obj_player.state = player_state.laying;
-			obj_player.x = other.target_x;
-			obj_player.y = other.target_y;
+			obj_player_o.second_dream_music_box = true;
+			obj_player_o.state = player_state.laying;
+			obj_player_o.x = other.target_x;
+			obj_player_o.y = other.target_y;
 			obj_camera.x = _cam_x;
 			obj_camera.y = _cam_y;
 		}
@@ -55,10 +55,10 @@ options_set_b[1] = {
 			var _cam_x =  other.camera_to_x, _cam_y =  other.camera_to_y;
 			TransitionPlaceSequence(_cam_x, _cam_y, seq_fadein);
 			other.first_interact = false;
-			obj_player.second_dream_music_box = true;
-			obj_player.state = player_state.laying;
-			obj_player.x = other.target_x;
-			obj_player.y = other.target_y;
+			obj_player_o.second_dream_music_box = true;
+			obj_player_o.state = player_state.laying;
+			obj_player_o.x = other.target_x;
+			obj_player_o.y = other.target_y;
 			obj_camera.x = _cam_x;
 			obj_camera.y = _cam_y;
 		}

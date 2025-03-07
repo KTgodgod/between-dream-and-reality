@@ -10,8 +10,8 @@
   "name":"obj_shadow_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"character",
-    "path":"folders/Objects/character.yy",
+    "name":"old",
+    "path":"folders/Objects/character/old.yy",
   },
   "parentObjectId":null,
   "persistent":false,

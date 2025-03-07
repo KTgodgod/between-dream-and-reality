@@ -1,4 +1,4 @@
-if (obj_player.x < 2800) && musicbox_playing == true {
+if (obj_player_o.x < 2800) && musicbox_playing == true {
 	draw_sprite(music_box_close,1, x, y);
 	if !audio_is_playing(Music_Box) {
 		audio_play_sound(Music_Box, 1, true);

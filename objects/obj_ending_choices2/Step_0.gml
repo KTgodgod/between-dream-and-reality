@@ -1,6 +1,6 @@
 
 event_inherited();
-if (obj_player.third_dream_cycle2 == true && obj_player.third_dream_cycle2_choices != true) {
+if (obj_player_o.third_dream_cycle2 == true && obj_player_o.third_dream_cycle2_choices != true) {
 	interactable = true;
 }
 

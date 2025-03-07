@@ -20,7 +20,7 @@ if (dialog_line == dialog_line_total) {
 			extra_line = true;
 		}
 	}
-	obj_player.third_dream_cycle1 = true;
+	obj_player_o.third_dream_cycle1 = true;
 }
 
 draw_set_color(c_black);

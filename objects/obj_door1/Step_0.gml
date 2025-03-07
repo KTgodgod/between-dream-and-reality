@@ -1,4 +1,4 @@
 event_inherited();
-if (obj_player.first_dream_key == true) {
+if (obj_player_o.first_dream_key == true) {
 	interactable = true;
 }

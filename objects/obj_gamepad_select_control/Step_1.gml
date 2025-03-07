@@ -22,16 +22,16 @@ for (var j = 0; j < array_length(sel_obj); ++j)
 if array_length(sel_ins_list) == 0 {
 	sel_ins_i = noone;
 }
-else if sel_ins_previous != sel_ins_list[0] 
+else if sel_ins_previous != sel_ins_list[0] //reset the list if the first item change 
 {
 	sel_ins_i = noone;
 	sel_ins_previous = sel_ins_list[0];
 	sel_ins_list_sort_y = sel_ins_list;
 	array_sort(sel_ins_list_sort_y, sort_y);
 }
-else if input_check_pressed("up") 
+else if input_check_pressed("up") || input_check_long("up")
 {
-	if sel_ins_i = noone {
+	if sel_ins_i == noone {
 		sel_ins_i = array_length(sel_ins_list) - 1;
 	}
 	else if --sel_ins_i < 0
@@ -39,9 +39,9 @@ else if input_check_pressed("up")
 		sel_ins_i += array_length(sel_ins_list);
 	}
 }
-else if input_check_pressed("down") 
+else if input_check_pressed("down") || input_check_long("down")
 {
-	if sel_ins_i = noone {
+	if sel_ins_i == noone {
 		sel_ins_i = 0;
 	}
 	else if ++sel_ins_i >= array_length(sel_ins_list)
